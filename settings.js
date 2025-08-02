@@ -73,3 +73,4 @@ if (!receiveAddress.startsWith("0x") ||
     )
 ) console.error(`Error: ${receiveAddress} is not a valid Ethereum address.`);
 //#endregion
+
